@@ -1,4 +1,4 @@
-# CPU Scheduler Docker Image
+# CPU Scheduling Docker Image
 
 This repository contains a Dockerized CPU Scheduling simulation written in C++. It supports scheduling policies such as FCFS, RR, SPN, SRT, HRRN, FB-1, FB-2i, and Aging.
 
@@ -13,12 +13,12 @@ If you want to build the Docker image locally:
 ```bash
 git clone <repository-url>
 cd <local-repository-name>
-docker build -t cpu-scheduler .
+docker build -t cpu-scheduling .
 ```
 
 ## Containerize the image and provide input
 
-`docker run -i cpu-scheduler < input.txt`
+`docker run -i cpu-scheduling < input.txt`
 
 input.txt example:
 ```bash
